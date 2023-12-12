@@ -1,10 +1,12 @@
 /* Variables */
 :root {
+  --light-bg-color: #E5E7EB;
   --dark-bg-color: #1F2937;
   --accent-color: #3882F6;
-  --light-bg-color: #E5E7EB;
   --light-text-color: #F9FAF8;
   --gray-text-color: #E5E7EB;
+  --std-padding: 50px;
+  --std-margin: 50px;
 }
 
 * {
@@ -29,6 +31,8 @@ header {
   font-size: 24px;
   color: #F9FAF8;
   background-color: #1F2937;
+  font-weight: bolder;
+  padding: 20px;
 }
 
 nav ul {
@@ -56,6 +60,7 @@ main {
   display: flex;
   justify-content: center;
   background-color: #1F2937;
+  padding: 50px 100px;
 }
 
 main p {
