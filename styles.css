@@ -26,7 +26,12 @@ body {
 
 header {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
   font-size: 24px;
   color: #F9FAF8;
@@ -56,14 +61,14 @@ nav ul a {
   color: #1F2937;
 }
 
-main {
+.main {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   background-color: #1F2937;
   padding: 50px 100px;
 }
 
-main p {
+.main p {
   font-size: 18px;
   color: #E5E7EB;
 }
@@ -72,6 +77,12 @@ h1 {
   font-size: 48px;
   font-weight: bolder;
   color: #F9FAF8;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
 }
 
 .images {
